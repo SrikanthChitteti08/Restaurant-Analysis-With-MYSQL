@@ -139,16 +139,16 @@
 
     WITH 
         q1 AS (
-            SELECT SUM(cost * rating_count) AS 'top_revenue' 
-            FROM (
-                SELECT *, cost * rating_count, ROW_NUMBER() OVER(ORDER BY cost * rating_count DESC) AS 'rank'
-                FROM restaurants
-            ) t
-            WHERE t.rank <= 12280
-        ),
+              SELECT SUM(cost * rating_count) AS 'top_revenue' 
+              FROM (
+                  SELECT *, cost * rating_count, ROW_NUMBER() OVER(ORDER BY cost * rating_count DESC) AS 'rank'
+                  FROM restaurants
+              ) t
+              WHERE t.rank <= 12280
+                ),
         q2 AS (
-        SELECT SUM(cost * rating_count) AS 'total_revenue' 
-        FROM restaurants
-        )    
-        SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
-        FROM q1, q2;
+              SELECT SUM(cost * rating_count) AS 'total_revenue' 
+              FROM restaurants
+                )    
+          SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
+          FROM q1, q2;
