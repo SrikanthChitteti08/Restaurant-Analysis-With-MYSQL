@@ -7,22 +7,8 @@
 ## **Dataset Details :**
 
   The dataset used in this project consists of the following columns:
-
-• **id:** Unique identifier for each restaurant
-
-• **name:** Name of the restaurant
-
-• **city:** Location of the restaurant
-
-• **rating:** Average customer rating (out of 5)
-
-• **rating_count:** Number of reviews received
-
-• **cuisine:** Type of cuisine served
-
-• **cost:** Approximate cost for two people
-
-• **link:** URL to the restaurant’s online page
+  
+  ![Screenshot 2025-02-28 154041](https://github.com/user-attachments/assets/59a76711-45a8-4d8c-b21a-b574fcaf4e48)
 
 ## **Project Objectives**
 
