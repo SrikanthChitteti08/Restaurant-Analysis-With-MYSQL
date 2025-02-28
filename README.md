@@ -139,6 +139,13 @@
           SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
           FROM q1, q2;
 
+## **Overall Insights:**
+Some cuisines generate significantly higher revenue than others, likely due to their popularity or premium pricing.
+Certain cities dominate the restaurant industry in terms of revenue generation.
+Revenue is heavily concentrated among a small percentage of top-performing restaurants.
+High-end restaurants in major cities like Delhi can charge above-average prices while still maintaining strong customer traffic.
+Underperforming restaurants in smaller cities may need strategies to improve customer engagement.
+
 ## **Conclusion**
 
   This project demonstrates the power of MySQL in handling, managing, and analyzing restaurant data. The SQL queries provide valuable insights into restaurant trends, revenue patterns, and customer preferences. By leveraging these insights, restaurant owners and food industry professionals can make informed decisions to improve customer experience and maximize profitability.
