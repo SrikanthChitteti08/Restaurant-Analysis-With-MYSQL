@@ -149,6 +149,6 @@
         q2 AS (
         SELECT SUM(cost * rating_count) AS 'total_revenue' 
         FROM restaurants
-    )    
-SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
-FROM q1, q2;
+        )    
+        SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
+        FROM q1, q2;
