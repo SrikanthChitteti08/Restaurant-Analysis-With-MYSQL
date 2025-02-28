@@ -152,3 +152,7 @@
                 )    
           SELECT (top_revenue / total_revenue) * 100 AS 'revenue %' 
           FROM q1, q2;
+
+## **Conclusion**
+
+  This project demonstrates the power of MySQL in handling, managing, and analyzing restaurant data. The SQL queries provide valuable insights into restaurant trends, revenue patterns, and customer preferences. By leveraging these insights, restaurant owners and food industry professionals can make informed decisions to improve customer experience and maximize profitability.
