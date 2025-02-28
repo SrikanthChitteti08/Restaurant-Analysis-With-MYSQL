@@ -12,27 +12,15 @@
 
 ## **Project Objectives**
 
-• Store and manage restaurant data in a MySQL database
+**•** Store and manage restaurant data in a MySQL database
 
-• Perform data cleaning and transformation
+**•** Perform data cleaning and transformation
 
-• Execute SQL queries to analyze trends
+**•** Execute SQL queries to analyze trends
 
-• Generate insights on factors affecting ratings and pricing
+**•** Generate insights on factors affecting ratings and pricing
 
-• Identify top-rated and budget-friendly restaurants
-
-## **SQL Queries & Analysis**
-
-• The project includes various SQL queries to analyze:
-
-• Average ratings per cuisine type
-
-• Most popular restaurant locations
-
-• Distribution of restaurant costs
-
-• Top-rated restaurants in each category
+**•** Identify top-rated and budget-friendly restaurants
 
 ## MySQL for Data Analytics: Queries & Insights :
 
@@ -140,11 +128,15 @@
           FROM q1, q2;
 
 ## **Overall Insights:**
-Some cuisines generate significantly higher revenue than others, likely due to their popularity or premium pricing.
-Certain cities dominate the restaurant industry in terms of revenue generation.
-Revenue is heavily concentrated among a small percentage of top-performing restaurants.
-High-end restaurants in major cities like Delhi can charge above-average prices while still maintaining strong customer traffic.
-Underperforming restaurants in smaller cities may need strategies to improve customer engagement.
+**•** Some cuisines generate significantly higher revenue than others, likely due to their popularity or premium pricing.
+
+**•** Certain cities dominate the restaurant industry in terms of revenue generation.
+
+**•** Revenue is heavily concentrated among a small percentage of top-performing restaurants.
+
+**•** High-end restaurants in major cities like Delhi can charge above-average prices while still maintaining strong customer traffic.
+
+**•** Underperforming restaurants in smaller cities may need strategies to improve customer engagement.
 
 ## **Conclusion**
 
