@@ -1,2 +1,37 @@
-# Restaurant-Data-Analysis-With-MYSQL
-This dataset can be used for restaurant analytics, including identifying top-rated restaurants, analyzing cuisine popularity, and evaluating pricing trends across different cities.
+## MySQL Restaurant Data Analysis
+
+### **Project Overview :**
+
+  This project focuses on analyzing restaurant data using MySQL. The dataset contains information about restaurants, including their name, location, ratings, cuisine type, and cost. The goal is to gain insights into restaurant trends and customer preferences.
+
+## **Dataset Details :**
+
+  The dataset used in this project consists of the following columns:
+
+• **id:** Unique identifier for each restaurant
+
+• **name:** Name of the restaurant
+
+• **city:** Location of the restaurant
+
+• **rating:** Average customer rating (out of 5)
+
+• **rating_count:** Number of reviews received
+
+• **cuisine:** Type of cuisine served
+
+• **cost:** Approximate cost for two people
+
+• **link:** URL to the restaurant’s online page
+
+## **Project Objectives**
+
+• Store and manage restaurant data in a MySQL database
+
+• Perform data cleaning and transformation
+
+• Execute SQL queries to analyze trends
+
+• Generate insights on factors affecting ratings and pricing
+
+• Identify top-rated and budget-friendly restaurants
