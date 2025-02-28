@@ -35,3 +35,15 @@
 • Generate insights on factors affecting ratings and pricing
 
 • Identify top-rated and budget-friendly restaurants
+
+## **SQL Queries & Analysis**
+
+• The project includes various SQL queries to analyze:
+
+• Average ratings per cuisine type
+
+• Most popular restaurant locations
+
+• Distribution of restaurant costs
+
+• Top-rated restaurants in each category
